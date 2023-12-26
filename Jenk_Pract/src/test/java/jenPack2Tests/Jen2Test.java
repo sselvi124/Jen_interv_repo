@@ -13,7 +13,7 @@ public class Jen2Test {
 public void m2Test() {
 //	String BROWSER = System.getProperty("browser");
 	
-	String BROWSER="edge";
+	String BROWSER="firefox";
 	WebDriver driver;
 	if(BROWSER.equals("edge")) {
 		driver= new EdgeDriver();
