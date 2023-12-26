@@ -11,7 +11,7 @@ public class Jen2Test {
 //	@Parameters("Browser")
 @Test 
 public void m2Test() {
-		
+		//updation from repo
 		WebDriver driver= new FirefoxDriver();
 		driver.get("https://www.amazon.in/");
 		System.out.println("amazon launched in chrome browser successfully");		
