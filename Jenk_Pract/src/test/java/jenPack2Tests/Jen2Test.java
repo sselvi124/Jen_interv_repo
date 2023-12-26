@@ -11,8 +11,9 @@ public class Jen2Test {
 //	@Parameters("Browser")
 @Test 
 public void m2Test() {
-	String BROWSER = System.getProperty("browser");
+//	String BROWSER = System.getProperty("browser");
 	
+	String BROWSER="edge";
 	WebDriver driver;
 	if(BROWSER.equals("edge")) {
 		driver= new EdgeDriver();
