@@ -11,28 +11,14 @@ public class Jen2Test {
 //	@Parameters("Browser")
 @Test 
 public void m2Test() {
-//	String BROWSER = System.getProperty("browser");
-	
-	String BROWSER="firefox";
-	WebDriver driver;
-	if(BROWSER.equals("edge")) {
-		driver= new EdgeDriver();
-	 	 
-	}else {
-		driver= new FirefoxDriver();
 		
+		WebDriver driver= new FirefoxDriver();
+		driver.get("https://www.amazon.in/");
+		System.out.println("amazon launched in chrome browser successfully");		
 	}
 	
-	String URL=System.getProperty("url");
-	driver.get(URL);
-	System.out.println("amazon launched in chrome browser successfully");
-	
-}
-
 @Test
 public void selviTest() {
 	System.out.println("Hi selvi");
 }
-
-
 }
